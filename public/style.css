@@ -1,0 +1,92 @@
+* {
+    margin: 0 auto;
+    font-family: Arial;
+}
+
+header {
+    top: 0;
+    position: absolute;
+    height: 150px;
+    width: 100%;
+    background-color: darksalmon;
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 0px 3px 10px black ;
+    z-index: 1;
+}
+
+header ul {
+    list-style: none;
+    height: 150px;
+    position: absolute;
+    padding: 0;
+    top: 35%;
+    left:35%;
+    right:35%;
+}
+
+header ul li {
+    display: inline-block;
+    padding: 10px;
+    margin:0;
+    text-align: center;
+    width: 8.1vw;
+}
+
+header ul li a {
+    
+    color: black;
+    text-decoration: none;
+}
+
+header ul li a:hover {
+    color: crimson;
+    transition: 0.3s;
+}
+
+.container {
+    top:150px;
+    width: 90%;
+    background-color: gainsboro;
+    height: 600px;
+    position: relative;
+}
+
+.container h1 {
+    text-align: center;
+    padding: 40px 5px;
+}
+
+
+
+
+
+table.userTable {
+    border: 6px solid #948473;
+    background-color: #FFE3C6;
+    width: 100%;
+    text-align: center;
+  }
+  
+  table.userTable td, table.userTable th {
+    border: 1px solid #948473;
+    padding: 4px 8px;
+  }
+  table.userTable tbody td {
+    font-size: 13px;
+  }
+  table.userTable thead {
+    background: #948473;
+  }
+  table.userTable thead th {
+    font-size: 17px;
+    font-weight: bold;
+    color: #F0F0F0;
+    text-align: left;
+    border-left: 2px solid #948473;
+  }
+
+  table.userTable thead th:first-child {
+    border-left: none;
+  }

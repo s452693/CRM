@@ -1,0 +1,37 @@
+ <h1> Our Users </h1>
+
+<section class="users">
+
+    <table class="userTable">
+        <thead>
+            <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Surname</th>
+            <th>Date Of Birth</th>
+            <th>Login</th>
+            <th>Role</th>
+            </tr>
+         </thead>
+        <tbody>
+
+    {{#each users}}
+        <tr>
+            <td>{{this.id}}</td>
+            <td>{{name}}</td>
+            <td>{{surname}}</td>
+            <td>{{dateOfBirth}}</td>
+            <td>{{login}}</td>
+            <td>{{idRole}}</td>
+        </tr>
+    {{else}}
+        <p> There's no users</p>
+
+    {{/each}}
+
+    
+        
+        </tbody>
+        
+    </table>
+</section>
