@@ -25,6 +25,7 @@ router.get('/', (req, res, next) =>
 );
 
 //Add user
+/*
 router.get('/add', (req, res,next) => {
     const data = {
         name: 'Matthew',
@@ -54,6 +55,6 @@ router.get('/add', (req, res,next) => {
 })
 
 
-
+*/
 
 module.exports = router;
