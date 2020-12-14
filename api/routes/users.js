@@ -46,14 +46,14 @@ router.get('/add', (req, res,next) => {
         passwordMd5: passwordMd5,
         idRole:idRole
     })
-        .then(() => res.send("Dodano"))
+        .then(() => res.send("User added"))
         .catch(err => {
-            console.log('Pojawil sie error' + err);
-            res.send("Ups")
+            console.log('Error:' + err);
+            res.send("Problem with adding a user")
         });
 
 })
-
+ */
 
 */
 
