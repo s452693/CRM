@@ -1,0 +1,33 @@
+<section class="addEdit">
+
+    <h1> Add new User</h1>
+
+     <form class = "addEdit" method="POST" action="/user/add">
+    <label for="name">Name</label>
+    <input type="text" name="name" required><br>
+
+    <label for="surname">Surname</label>
+    <input type="text" name="surname" required><br>
+
+    <label for="dateOfBirth">Date of Birth</label>
+    <input type="date" name="dateOfBirth" required><br>
+
+    <label for="login">Login</label>
+    <input type="text" name="login" required><br>
+
+    <label for="passwordMd5">Password</label>
+    <input type="password" name="passwordMd5" required><br>
+
+    <label for="idRole">Id Roli</label>
+    <input type="number" name="idRole" required><br>
+
+    <label for="isDeleted">is Deleted </label>
+    <input type="radio" name="isDeleted" value="0" checked> <div> &nbsp 0</div> <br>
+
+    <input type="submit" name="Add" value="Add">
+
+</form> 
+
+<h1>{{communicat}} </h1>
+
+</section>

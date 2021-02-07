@@ -1,4 +1,4 @@
- <h1> Our Users </h1>
+ <h1> Users </h1>
 
 <section class="users">
 
@@ -11,18 +11,24 @@
             <th>Date Of Birth</th>
             <th>Login</th>
             <th>Role</th>
+            <th>isDeleted</th>
+            <th>Edit</th>
             </tr>
          </thead>
         <tbody>
 
     {{#each users}}
         <tr>
-            <td>{{this.id}}</td>
+            <form action="/user/edit" method="POST">
+            <td><input type="hidden" class="input-id" name="id" value="{{id}}" checked> {{id}}</td>
             <td>{{name}}</td>
             <td>{{surname}}</td>
             <td>{{dateOfBirth}}</td>
             <td>{{login}}</td>
             <td>{{idRole}}</td>
+            <td>{{isDeleted}}</td>
+            <td><input type="submit" name="edit" value="edit"></td>
+            </form>
         </tr>
     {{else}}
         <p> There's no users</p>

@@ -8,7 +8,7 @@ header {
     position: absolute;
     height: 150px;
     width: 100%;
-    background-color: darksalmon;
+    background-color:#f7b997;
     display: block;
     font-size: 20px;
     font-weight: bold;
@@ -48,7 +48,7 @@ header ul li a:hover {
 .container {
     top:150px;
     width: 90%;
-    background-color: gainsboro;
+    background-color: #f7f5e6;
     height: 600px;
     position: relative;
 }
@@ -63,30 +63,53 @@ header ul li a:hover {
 
 
 table.userTable {
-    border: 6px solid #948473;
-    background-color: #FFE3C6;
+    border: 6px solid #8d8984;
+    background-color: #ffeedb;
     width: 100%;
     text-align: center;
   }
   
   table.userTable td, table.userTable th {
-    border: 1px solid #948473;
     padding: 4px 8px;
   }
   table.userTable tbody td {
     font-size: 13px;
   }
   table.userTable thead {
-    background: #948473;
+    background: #8d8984;
   }
   table.userTable thead th {
     font-size: 17px;
     font-weight: bold;
     color: #F0F0F0;
     text-align: left;
-    border-left: 2px solid #948473;
+    border-left: 2px solid #8d8984;
   }
 
   table.userTable thead th:first-child {
     border-left: none;
   }
+
+
+
+
+
+  .addEdit form {
+    width:30%;
+    padding: 0% 20%;
+    font-size: 20px;
+  }
+
+  
+  .addEdit form label {
+    line-height: 1.5;
+  }
+
+  .addEdit form input {
+    float: right;
+  }
+
+
+.addEdit form div {
+  float: right;
+}
